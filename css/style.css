@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn-buy-now {
+    padding: 10px 20px;
+    background: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+.btn-buy-now:hover {
+    background: #ffcc1b;
+    color: #ffffff;
+}
+
+.arrow {
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+
+/* common css ends */
+
+#navigation ul li a {
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+#navigation ul li:hover a {
+    color: #ffcc1b;
+}
+
+
+/* header ends */
+
+#banner-part {
+    padding-bottom: 100px;
+}
+
+p {
+    color: gray;
+    font-size: 14px;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 3px;
+    border-radius: 3px;
+    border-top: 2px solid #ffcc1b;
+    border-bottom: 2px solid #ffcc1b;
+    background: #ffcc1b;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+#phone-part {
+    padding-bottom: 100px;
+}
+
+.card {
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px gray;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.card:hover {
+    transform: scaleX(0.9);
+    -webkit-transform: scaleX(0.9);
+    -moz-transform: scaleX(0.9);
+    -ms-transform: scaleX(0.9);
+    -o-transform: scaleX(0.9);
+}
+
+.see-all {
+    color: #ffcc1b;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.see-all:visited {
+    color: #ffcc1b;
+}
+
+#categores-part {
+    padding: 100px 0;
+}
+
+.cat {
+    padding: 60px 0 20px;
+    background: #ffffff;
+    box-shadow: 1px 1px 15px grey;
+}
+
+#categores-part h5 {
+    padding-top: 25px;
+}
+
+#categores-part .shoes {
+    margin-top: 30px;
+}
+
+#categores-part .bag {
+    margin-top: 70%;
+    margin-left: 15px;
+}
+
+#categores-part .item {
+    margin-top: 50px;
+}
+
+#categores-part .text h2 {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+#categores-part .text h2 {}
+
+#categores-part .text h2:after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 100%;
+    width: 120px;
+    border-radius: 10px;
+    height: 10px;
+    transform: translateX(-50%);
+    background: linear-gradient(180deg, #ffcc1b, rgba(248, 138, 13, 0));
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
