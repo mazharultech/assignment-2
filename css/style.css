@@ -54,6 +54,10 @@ h5 {
 
 /* common css ends */
 
+#navigation {
+    padding-bottom: 100px;
+}
+
 #navigation ul li a {
     transition: all linear 0.4s;
     -webkit-transition: all linear 0.4s;
@@ -137,6 +141,8 @@ p {
     padding: 60px 0 20px;
     background: #ffffff;
     box-shadow: 1px 1px 15px grey;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 #categores-part h5 {
@@ -181,4 +187,10 @@ p {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+footer {
+    height: 50px;
+    background: #ffffff;
+    line-height: 50px;
 }
