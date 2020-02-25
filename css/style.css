@@ -58,6 +58,14 @@ h5 {
     padding-bottom: 100px;
 }
 
+#navigation img {
+    padding-left: 104px;
+}
+
+#navigation ul {
+    padding-right: 108px;
+}
+
 #navigation ul li a {
     transition: all linear 0.4s;
     -webkit-transition: all linear 0.4s;
